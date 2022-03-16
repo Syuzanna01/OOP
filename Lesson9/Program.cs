@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace _2_Inheritance
+namespace Inheritance
 {
     class Program
     {
