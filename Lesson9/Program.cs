@@ -8,17 +8,19 @@ namespace _2_Inheritance
         class Car
         {
             public string Brand;
-            public string Color = "blue";
+            public string Color;
             internal int aa;
         }
         class BMW : Car
         {
             protected int price4 = 80000;
             protected int priceX6 = 120000;
+            public string fueltime;
         }
         class Series4 : BMW
         {
             protected string Name = "Series4";
+            
             public Series4()
             {
                 Console.WriteLine(Name);
@@ -26,7 +28,9 @@ namespace _2_Inheritance
             }
             public void Benzik()
             {
-                Console.WriteLine("benzin");
+                fueltime = "benzin";
+                Color = "Blue";
+                Console.WriteLine(fueltime);
                 Console.WriteLine(Color);
             }
         }
@@ -40,7 +44,10 @@ namespace _2_Inheritance
             }
             public void Dizel()
             {
-                Console.WriteLine("dizel");
+                fueltime = "dizel";
+                Color = "Red";
+                Console.WriteLine(fueltime);
+                Console.WriteLine(Color);
             }
         }
         static void Main(string[] args)
