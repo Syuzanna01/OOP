@@ -27,7 +27,7 @@ namespace _2_Inheritance
                 Console.WriteLine(price4);
             }
             public void Benzik()
-            {
+            { 
                 fueltime = "benzin";
                 Color = "Blue";
                 Console.WriteLine(fueltime);
