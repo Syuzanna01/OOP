@@ -15,7 +15,7 @@ namespace _2_Inheritance
         {
             protected int price4 = 80000;
             protected int priceX6 = 120000;
-            public string fueltime;
+            public string fueltime; 
         }
         class Series4 : BMW
         {
