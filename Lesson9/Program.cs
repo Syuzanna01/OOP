@@ -19,7 +19,7 @@ namespace _2_Inheritance
         }
         class Series4 : BMW
         {
-            protected string Name = "Series4";
+            private string Name = "Series4";
             
             public Series4()
             {
@@ -36,7 +36,7 @@ namespace _2_Inheritance
         }
         class SeriesX6 : BMW
         {
-            protected string Name = "SeriesX6";
+            private string Name = "SeriesX6";
             public SeriesX6()
             {
                 Console.WriteLine(Name);
