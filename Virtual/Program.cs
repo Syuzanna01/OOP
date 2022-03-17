@@ -11,7 +11,7 @@ namespace Virtual
                 Console.WriteLine("Object");
             }
         }
-        class Child : Object
+        class Child : Object 
         { 
             public override void Method()
             {
