@@ -5,7 +5,7 @@ namespace Virtual
     class Program
     {
         class Object
-        {
+        { 
             public virtual void Method() 
             {
                 Console.WriteLine("Object");

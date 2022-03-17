@@ -20,7 +20,7 @@ namespace Inheritance
         {
             string Animall { get; set; }
             string Name { get; set; }
-            string Voice { get; set; } 
+            string Voice { get; set; }
             public void Method() 
             { 
                 Console.WriteLine(Animall);
