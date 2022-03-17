@@ -19,7 +19,7 @@ namespace Inheritance
         interface ICat
         {
             string Animall { get; set; }
-            string Name { get; set; }
+            string Name { get; set; } 
             string Voice { get; set; }
             public void Method() 
             {

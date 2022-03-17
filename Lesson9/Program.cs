@@ -50,6 +50,7 @@ namespace Inheritance
                 Console.WriteLine(Color);
             }
         }
+       
         static void Main(string[] args)
         {
             Series4 series = new Series4();
@@ -59,6 +60,8 @@ namespace Inheritance
 
             SeriesX6 seriesX6 = new SeriesX6();
             seriesX6.Dizel();
+            
+            
         }
     }
 }
