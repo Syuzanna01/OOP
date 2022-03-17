@@ -1,18 +1,18 @@
 ﻿using System;
 
 namespace Virtual
-{ 
+{
     class Program
     {
         class Object
-        { 
-            public virtual void Method() 
+        {
+            public virtual void Method()
             {
                 Console.WriteLine("Object");
             }
         }
-        class Child : Object 
-        { 
+        class Child : Object
+        {
             public override void Method()
             {
                 Console.WriteLine("Child");
