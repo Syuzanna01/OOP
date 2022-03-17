@@ -4,7 +4,7 @@ namespace Inheritance
 {
     class Program
     {
-        interface IDog 
+        interface IDog
         {
             string Animall { get; set; }
             string Name { get; set; }
