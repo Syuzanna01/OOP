@@ -27,7 +27,7 @@ namespace Inheritance
                 Console.WriteLine("Name " + Name);
                 Console.WriteLine("Voice " + Voice);
             }
-        }
+        } 
         interface IOz
         {
             string Animall { get; set; }
