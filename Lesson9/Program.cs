@@ -10,7 +10,7 @@ namespace Inheritance
             public string Brand;
             public string Color;
             internal int aa;
-        }
+        } 
         class BMW : Car
         {
             protected int price4 = 80000;
