@@ -19,10 +19,10 @@ namespace Inheritance
         interface ICat
         {
             string Animall { get; set; }
-            string Name { get; set; } 
+            string Name { get; set; }
             string Voice { get; set; }
             public void Method() 
-            {
+            { 
                 Console.WriteLine(Animall);
                 Console.WriteLine("Name " + Name);
                 Console.WriteLine("Voice " + Voice);

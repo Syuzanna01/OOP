@@ -12,7 +12,7 @@ namespace Virtual
             }
         }
         class Child : Object
-        {
+        { 
             public override void Method()
             {
                 Console.WriteLine("Child");
