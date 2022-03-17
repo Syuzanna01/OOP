@@ -7,7 +7,7 @@ namespace Inheritance
         interface IDog
         {
             string Animall { get; set; }
-            string Name { get; set; }
+            string Name { get; set; } 
             string Voice { get; set; }
             public void Method()
             {
