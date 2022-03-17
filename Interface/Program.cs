@@ -4,7 +4,7 @@ namespace Inheritance
 {
     class Program
     {
-        interface IDog
+        interface IDog 
         {
             string Animall { get; set; }
             string Name { get; set; }
@@ -45,14 +45,14 @@ namespace Inheritance
             public string Name { get; set; }
             public string Voice { get; set; }
             public string Animall { get; set; }
-        } 
+        }
         static void Main(string[] args)
-        { 
+        {
             IDog dog = new Animal();
             dog.Animall = "Shun";
             dog.Name = "Jeko";
             dog.Voice = "Haf";
-            dog.Method(); 
+            dog.Method();
 
             Console.WriteLine();
 
