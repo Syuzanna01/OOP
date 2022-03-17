@@ -21,7 +21,7 @@ namespace Inheritance
             string Animall { get; set; }
             string Name { get; set; }
             string Voice { get; set; }
-            public void Method()
+            public void Method() 
             {
                 Console.WriteLine(Animall);
                 Console.WriteLine("Name " + Name);
