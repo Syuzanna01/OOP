@@ -16,7 +16,7 @@ namespace Inheritance
                 Console.WriteLine("Voice " + Voice);
             }
         }
-        interface ICat
+        interface ICat 
         {
             string Animall { get; set; }
             string Name { get; set; }

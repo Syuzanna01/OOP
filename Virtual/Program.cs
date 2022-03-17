@@ -6,7 +6,7 @@ namespace Virtual
     {
         class Object
         {
-            public virtual void Method()
+            public virtual void Method() 
             {
                 Console.WriteLine("Object");
             }
