@@ -52,7 +52,7 @@ namespace Interface
             IDog dog = new Animal();
             dog.Animall = "Shun";
             dog.Name = "Jeko";
-            dog.Voice = "Haf";
+            dog.Voice = "Haf"; 
             dog.Method();
 
             Console.WriteLine();
