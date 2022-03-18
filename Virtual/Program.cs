@@ -4,7 +4,7 @@ namespace Virtual
 {
     class Program
     {
-        class Object
+        class Object 
         {
             public virtual void Method()
             {
