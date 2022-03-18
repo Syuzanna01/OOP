@@ -39,7 +39,7 @@ namespace Interface
                 Console.WriteLine("Voice " + Voice);
             }
         }
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             IDog dog = new Animal();
             dog.Animall = "Shun";
