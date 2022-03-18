@@ -1,74 +1,33 @@
 ﻿using System;
 
-namespace Inheritance
+namespace Virtual
 {
     class Program
     {
-        interface IDog
+        class Object
         {
-            string Animall { get; set; }
-            string Name { get; set; }
-            string Voice { get; set; }
-            public void Method()
+            public virtual void Method()
             {
-                Console.WriteLine(Animall);
-                Console.WriteLine("Name " + Name);
-                Console.WriteLine("Voice " + Voice);
+                Console.WriteLine("Object");
             }
         }
-        interface ICat
+        class Child : Object
         {
-            string Animall { get; set; }
-            string Name { get; set; }
-            string Voice { get; set; }
-            public void Method()
+            public override void Method()
             {
-                Console.WriteLine(Animall);
-                Console.WriteLine("Name " + Name);
-                Console.WriteLine("Voice " + Voice);
+                Console.WriteLine("Child");
             }
-        }
-        interface IOz
-        {
-            string Animall { get; set; }
-            string Name { get; set; }
-            string Voice { get; set; }
-            public void Method()
-            {
-                Console.WriteLine(Animall);
-                Console.WriteLine("Name " + Name);
-                Console.WriteLine("Voice " + Voice);
-            }
-        }
-        class Animal : IDog, ICat, IOz
-        {
-            public string Name { get; set; }
-            public string Voice { get; set; }
-            public string Animall { get; set; }
         }
         static void Main(string[] args)
         {
-            IDog dog = new Animal();
-            dog.Animall = "Shun";
-            dog.Name = "Jeko";
-            dog.Voice = "Haf";
-            dog.Method();
+            Object obj1 = new Child();
+            obj1.Method();
 
-            Console.WriteLine();
+            Object obj2 = new Object();
+            obj2.Method();
 
-            ICat cat = new Animal();
-            cat.Animall = "Katu";
-            cat.Name = "Lusi";
-            cat.Voice = "Miau";
-            cat.Method();
-
-            Console.WriteLine();
-
-            IOz oz = new Animal();
-            oz.Animall = "Oz";
-            oz.Name = "Anakonda";
-            oz.Voice = "ssssss";
-            oz.Method();
+            Child obj3 = new Child();
+            obj3.Method();
         }
     }
 }
