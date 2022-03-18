@@ -30,4 +30,4 @@ namespace Virtual
             obj3.Method();
         }
     }
-}
+} 
