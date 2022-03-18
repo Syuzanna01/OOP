@@ -47,7 +47,7 @@ namespace Interface
             public string Voice { get; set; }
             public string Animall { get; set; }
         }
-        static void Main(string[] args)  
+        static void Main(string[] args)
         {
             IDog dog = new Animal();
             dog.Animall = "Shun";
