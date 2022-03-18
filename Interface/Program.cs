@@ -10,42 +10,34 @@ namespace Interface
             string Animall { get; set; }
             string Name { get; set; }
             string Voice { get; set; }
-            public void Method()
-            {
-                Console.WriteLine(Animall);
-                Console.WriteLine("Name " + Name);
-                Console.WriteLine("Voice " + Voice);
-            }
+            public void Method();
         }
         interface ICat
         {
             string Animall { get; set; }
             string Name { get; set; }
             string Voice { get; set; }
-            public void Method()
-            {
-                Console.WriteLine(Animall);
-                Console.WriteLine("Name " + Name);
-                Console.WriteLine("Voice " + Voice);
-            }
+            public void Method();
         }
         interface IOz
         {
             string Animall { get; set; }
             string Name { get; set; }
             string Voice { get; set; }
-            public void Method()
-            {
-                Console.WriteLine(Animall);
-                Console.WriteLine("Name " + Name);
-                Console.WriteLine("Voice " + Voice);
-            }
+            public void Method();
         }
         class Animal : IDog, ICat, IOz
         {
             public string Name { get; set; }
             public string Voice { get; set; }
             public string Animall { get; set; }
+
+            public void Method()
+            {
+                Console.WriteLine(Animall);
+                Console.WriteLine("Name " + Name);
+                Console.WriteLine("Voice " + Voice);
+            }
         }
         static void Main(string[] args)
         {
