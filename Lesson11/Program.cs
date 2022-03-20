@@ -24,7 +24,7 @@ namespace Arrayy
                 add[3] = "gd";
             }
             public void Delete()
-            { 
+            {
                 Array.Clear(array, 1, 1);
             }
             public void Lenght() 
