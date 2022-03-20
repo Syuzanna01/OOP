@@ -29,7 +29,7 @@ namespace Arrayy
             }
             public void Lenght()
             {
-                int Len = array.GetLength(0)
+                int Len = array.GetLength(0);
             }
         }
         static void Main()
