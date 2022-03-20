@@ -31,7 +31,7 @@ namespace Arrayy
             {
                 int Len = array.GetLength(0);
             }
-        } 
+        }
         static void Main()
         {
             dynamic[] array = { 2, "jh", 'h', 85 };
