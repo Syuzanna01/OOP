@@ -24,10 +24,10 @@ namespace Arrayy
                 add[3] = "gd";
             }
             public void Delete()
-            {
+            { 
                 Array.Clear(array, 1, 1);
             }
-            public void Lenght()
+            public void Lenght() 
             {
                 int Len = array.GetLength(0);
             }
