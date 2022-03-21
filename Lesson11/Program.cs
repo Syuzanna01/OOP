@@ -32,7 +32,7 @@ namespace Arrayy
                 int Len = array.GetLength(0);
             }
         }
-        static void Main()
+        static void Main() 
         {
             dynamic[] array = { 2, "jh", 'h', 85 };
             MyClass myClass = new MyClass(array);
