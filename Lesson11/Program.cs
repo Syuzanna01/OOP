@@ -37,7 +37,7 @@ namespace Arrayy
             dynamic[] array = { 2, "jh", 'h', 85 };
             MyClass myClass = new MyClass(array);
             myClass.Method();
-            myClass.Add();
+            myClass.Add(); 
             myClass.Delete();
             myClass.Lenght();
         }
